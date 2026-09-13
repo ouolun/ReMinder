@@ -1,0 +1,22 @@
+# Git metadata
+.git/
+
+# Swift Package Manager build artifacts and generated caches
+.build/
+**/.swiftpm/playgrounds/CachedManifest.plist
+
+# Xcode build output and user-specific state
+DerivedData/
+**/xcuserdata/
+*.xcuserstate
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
